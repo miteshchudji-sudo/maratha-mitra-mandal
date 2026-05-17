@@ -1,8 +1,59 @@
-.hero{
-    height:100vh;
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
 
-    background:url('images/ganpati.png');
+body{
+  font-family: Arial, sans-serif;
+  background:#e8d3ad;
+}
 
-    background-size:cover;
-    background-position:center;
+/* HERO IMAGE */
+
+.hero img{
+  width:100%;
+  display:block;
+}
+
+/* NAVBAR */
+
+.navbar{
+  background:#8b0d04;
+  padding:18px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:40px;
+  flex-wrap:wrap;
+}
+
+.navbar a{
+  color:#f5d08a;
+  text-decoration:none;
+  font-size:20px;
+  transition:0.3s;
+}
+
+.navbar a:hover{
+  color:white;
+}
+
+/* CONTENT */
+
+.content{
+  padding:40px;
+  text-align:center;
+}
+
+.content h1{
+  font-size:50px;
+  color:#8b0d04;
+  margin-bottom:20px;
+}
+
+.content p{
+  font-size:22px;
+  color:#333;
+  line-height:1.7;
 }

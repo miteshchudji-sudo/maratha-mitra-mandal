@@ -1,5 +1,1 @@
-function showMessage(){
-
-    alert("Ganpati Bappa Morya 🙏");
-
-}
+console.log("Maratha Mitra Mandal Website Loaded");
